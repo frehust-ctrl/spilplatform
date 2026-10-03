@@ -7,7 +7,8 @@ import { ROOT, SITE, fail } from "./lib.mjs";
 
 const git = (args, cwd = SITE) => spawnSync("git", args, { cwd, encoding: "utf8" });
 
-const branch = git(["rev-parse", "--abbrev-ref", "HEAD"]);
+// symbolic-ref also works on the very first deploy, before gh-pages has any commits.
+const branch = git(["symbolic-ref", "--short", "HEAD"]);
 if (branch.status !== 0 || branch.stdout.trim() !== "gh-pages") {
   fail("site/ er ikke sat op som gh-pages-grenen endnu. Følg 'Første gang' i README.md.");
 }
