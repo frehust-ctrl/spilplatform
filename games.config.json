@@ -1,0 +1,20 @@
+{
+  "platform": {
+    "title": "Spilplatform",
+    "tagline": "Mine spil – direkte i browseren"
+  },
+  "games": {
+    "bondegaarden": {
+      "path": "../simfarm",
+      "title": "Bondegaarden",
+      "tagline": "Byg din egen bondegård – fra første pløjning til egen by",
+      "description": "Et isometrisk landbrugsspil i ånden fra 90'ernes klassiske simulationer. Ryd jorden, læg marker ud, pløj og så, hold dyr, køb maskiner og byg lader – mens vejret, markedspriserne og banken gør livet svært for dig. Du starter med et gårdlån, og alt markarbejde kræver maskiner, som kører ud fra laden og helst på vej.",
+      "cover": "covers/bondegaarden.svg",
+      "tags": [
+        "Simulation",
+        "Landbrug",
+        "Strategi"
+      ]
+    }
+  }
+}

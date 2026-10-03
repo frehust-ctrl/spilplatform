@@ -1,0 +1,20 @@
+{
+  "name": "spilplatform",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite portal",
+    "build:portal": "node tools/build-portal.mjs",
+    "publish-game": "node tools/publish.mjs",
+    "promote": "node tools/promote.mjs",
+    "rollback": "node tools/rollback.mjs",
+    "status": "node tools/status.mjs",
+    "preview": "node tools/build-portal.mjs && vite preview --outDir site --port 4300 --strictPort",
+    "deploy": "node tools/deploy.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spilplatform</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header id="top">
+      <a class="brand" href="#/"><span class="logo">🎮</span><span id="brand-title">Spilplatform</span></a>
+      <nav>
+        <a href="#/">Bibliotek</a>
+      </nav>
+      <span class="spacer"></span>
+      <div class="channel" role="group" aria-label="Kanal">
+        <button data-channel="prod">Live</button>
+        <button data-channel="dev">Dev</button>
+      </div>
+    </header>
+    <main id="app"></main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

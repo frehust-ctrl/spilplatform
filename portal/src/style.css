@@ -1,0 +1,92 @@
+:root {
+  --bg: #12171a;
+  --bg-2: #1a2126;
+  --card: #1f282e;
+  --line: #2c373e;
+  --text: #e8eef0;
+  --muted: #93a3ab;
+  --accent: #f4c542;
+  --live: #5fcf7a;
+  --dev: #f08a3c;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  background: radial-gradient(1200px 600px at 20% -10%, #24323a 0%, var(--bg) 60%);
+  color: var(--text);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+a { color: inherit; }
+button { font: inherit; color: inherit; cursor: pointer; }
+
+#top {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; gap: 20px;
+  padding: 10px 24px; background: rgba(16, 21, 24, 0.92); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; text-decoration: none; }
+nav a { color: var(--muted); text-decoration: none; font-weight: 600; }
+nav a:hover { color: var(--text); }
+.spacer { flex: 1; }
+.channel { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.channel button { border: 0; background: transparent; padding: 5px 14px; color: var(--muted); font-weight: 600; }
+.channel button.active[data-channel="prod"] { background: var(--live); color: #0e1a12; }
+.channel button.active[data-channel="dev"] { background: var(--dev); color: #1e1209; }
+body.dev #top { border-bottom-color: var(--dev); }
+
+main { max-width: 1180px; margin: 0 auto; padding: 28px 24px 60px; }
+.hero h1 { margin: 8px 0 4px; font-size: 32px; }
+.hero p { margin: 0 0 24px; color: var(--muted); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.card {
+  display: flex; flex-direction: column; text-decoration: none;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+.card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4); border-color: var(--accent); }
+.card.soon { opacity: 0.6; }
+.cover { aspect-ratio: 16 / 9; background: var(--bg-2); }
+.cover img, .game-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.card-body { padding: 14px 16px 16px; }
+.card-body h3 { margin: 0 0 4px; font-size: 18px; }
+.card-body p { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--bg-2); color: var(--muted); border: 1px solid var(--line); }
+.ver { margin-left: auto; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.empty { color: var(--muted); }
+
+.game { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.game-cover { border-radius: 14px; overflow: hidden; border: 1px solid var(--line); aspect-ratio: 16 / 9; background: var(--bg-2); }
+.game-info h1 { margin: 6px 0 4px; font-size: 34px; }
+.tagline { margin: 0 0 12px; color: var(--muted); font-size: 17px; }
+.desc { margin: 16px 0 20px; }
+.back { color: var(--muted); text-decoration: none; font-weight: 600; }
+.back:hover { color: var(--text); }
+.play {
+  display: inline-block; padding: 12px 28px; border-radius: 10px; text-decoration: none;
+  background: linear-gradient(180deg, #7ad66b, #4fae45); color: #0b1a09; font-weight: 800; font-size: 18px;
+  box-shadow: 0 6px 20px rgba(79, 174, 69, 0.35);
+}
+.play:hover { filter: brightness(1.07); }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.soon-note { padding: 12px 14px; border-radius: 10px; background: var(--bg-2); border: 1px dashed var(--line); }
+.badge { display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.badge.prod { background: var(--live); color: #0e1a12; }
+.badge.dev { background: var(--dev); color: #1e1209; }
+
+/* Player: the game fills the window under a slim bar. */
+body.playing main { max-width: none; padding: 0; }
+body.playing #top { display: none; }
+.player { display: flex; flex-direction: column; height: 100vh; }
+.player-bar { display: flex; align-items: center; gap: 10px; padding: 6px 14px; background: #0d1214; border-bottom: 1px solid var(--line); }
+.player-bar button { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 4px 12px; }
+.player iframe { flex: 1; border: 0; width: 100%; background: #000; }
+
+@media (max-width: 800px) {
+  .game { grid-template-columns: 1fr; }
+  #top { padding: 10px 16px; gap: 12px; }
+  main { padding: 20px 16px 40px; }
+}
