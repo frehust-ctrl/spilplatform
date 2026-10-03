@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-03T19:01:12.637Z",
+  "updated": "2026-10-03T19:03:12.976Z",
   "games": [
     {
       "slug": "bondegaarden",
       "channels": {
         "dev": "0.9.11",
-        "prod": "0.9.10"
+        "prod": "0.9.11"
       },
       "versions": [
         {
