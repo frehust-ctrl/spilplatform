@@ -1,13 +1,18 @@
 {
-  "updated": "2026-10-03T19:03:12.976Z",
+  "updated": "2026-10-03T19:51:32.093Z",
   "games": [
     {
       "slug": "bondegaarden",
       "channels": {
-        "dev": "0.9.11",
-        "prod": "0.9.11"
+        "dev": "0.9.12",
+        "prod": "0.9.12"
       },
       "versions": [
+        {
+          "version": "0.9.12",
+          "date": "2026-10-03T19:51:31.996Z",
+          "notes": "Startskærm, 5 navngivne gemmepladser, ⋯-menu med Hovedmenu, sikrere gemning, Drift-menu, æbler i sæson"
+        },
         {
           "version": "0.9.11",
           "date": "2026-10-03T19:01:12.636Z",
