@@ -1,13 +1,18 @@
 {
-  "updated": "2026-10-03T14:40:19.945Z",
+  "updated": "2026-10-03T15:03:12.824Z",
   "games": [
     {
       "slug": "bondegaarden",
       "channels": {
-        "dev": "0.9.3",
+        "dev": "0.9.4",
         "prod": "0.9.3"
       },
       "versions": [
+        {
+          "version": "0.9.4",
+          "date": "2026-10-03T15:03:12.823Z",
+          "notes": "Rettede markarbejde, nye 3D-maskiner, hjælp bag ⓘ"
+        },
         {
           "version": "0.9.3",
           "date": "2026-10-03T14:39:20.225Z",
