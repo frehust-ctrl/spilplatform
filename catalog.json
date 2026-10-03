@@ -1,13 +1,18 @@
 {
-  "updated": "2026-10-03T16:52:55.356Z",
+  "updated": "2026-10-03T17:34:26.957Z",
   "games": [
     {
       "slug": "bondegaarden",
       "channels": {
-        "dev": "0.9.7",
+        "dev": "0.9.8",
         "prod": "0.9.5"
       },
       "versions": [
+        {
+          "version": "0.9.8",
+          "date": "2026-10-03T17:34:26.956Z",
+          "notes": "Beskeder i topbjælken, spilguide, landbrugsstøtte, grundskyld og vedligehold, mindre landmand uden taleboble, passagerfly i lufthavnen"
+        },
         {
           "version": "0.9.7",
           "date": "2026-10-03T16:52:55.355Z",
