@@ -90,3 +90,4 @@ body.playing #top { display: none; }
   #top { padding: 10px 16px; gap: 12px; }
   main { padding: 20px 16px 40px; }
 }
+.loading { color: var(--muted); padding: 40px 0; text-align: center; }
