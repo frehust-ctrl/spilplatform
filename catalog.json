@@ -1,13 +1,18 @@
 {
-  "updated": "2026-10-03T18:13:59.211Z",
+  "updated": "2026-10-03T19:01:12.637Z",
   "games": [
     {
       "slug": "bondegaarden",
       "channels": {
-        "dev": "0.9.10",
+        "dev": "0.9.11",
         "prod": "0.9.10"
       },
       "versions": [
+        {
+          "version": "0.9.11",
+          "date": "2026-10-03T19:01:12.636Z",
+          "notes": "Ny Drift-menu, æbler modner kun i sensommer/efterår, stille hjælpebobler, kompakt Anlæg og Markarbejde, Land starter på Undersøg, tydeligere ukrudt"
+        },
         {
           "version": "0.9.10",
           "date": "2026-10-03T18:12:25.199Z",
