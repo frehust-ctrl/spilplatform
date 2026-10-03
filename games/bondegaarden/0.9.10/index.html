@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondegaarden</title>
+    <script type="module" crossorigin src="./assets/index-B6TRZN-i.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BPcbw94t.css">
+  </head>
+  <body>
+    <header id="topbar">
+      <span class="logo">🚜 Bondegaarden</span>
+      <!-- Speed controls sit before the variable-width stats so they never move. -->
+      <span id="speed" class="group"></span>
+      <span id="cash" class="stat"></span>
+      <span id="date" class="stat"></span>
+      <span id="weather" class="stat"></span>
+      <button id="news" class="stat news" title="Klik for at se alle beskeder"></button>
+      <span class="spacer"></span>
+      <span class="group">
+        <button id="btn-guide" title="Kort spilguide">❓ Guide</button>
+        <button id="btn-music" title="Musik til/fra (M)">🔊 Musik</button>
+        <button id="btn-save" title="Gem">💾 Gem</button>
+        <button id="btn-load" title="Indlæs">📂 Indlæs</button>
+        <button id="btn-new" title="Nyt spil">✨ Nyt</button>
+      </span>
+    </header>
+    <nav id="menubar"></nav>
+    <main>
+      <div id="stage">
+        <canvas id="game"></canvas>
+        <div id="windows"></div>
+        <div id="toast"></div>
+        <!-- Info about the tile under the mouse: only shown while there is something to show. -->
+        <aside id="sidebar" hidden><h3>Felt</h3><div id="tile-info"></div></aside>
+        <button id="banner" hidden></button>
+        <div id="gameover" hidden>
+          <h2>Konkurs 💸</h2>
+          <p>Gården kunne ikke betale sine regninger.</p>
+          <button id="btn-restart">Start forfra</button>
+        </div>
+        <div id="confirm" class="modal" hidden>
+          <div class="newgame-box">
+            <h2 id="confirm-title"></h2>
+            <p id="confirm-text"></p>
+            <div class="confirm-buttons">
+              <button id="confirm-ok" class="danger"></button>
+              <button id="confirm-cancel">Annullér</button>
+            </div>
+          </div>
+        </div>
+        <div id="newgame" hidden>
+          <div class="newgame-box">
+            <h2>🚜 Ny gård</h2>
+            <p>Vælg sværhedsgrad. Det kan ikke ændres undervejs.</p>
+            <div id="levels"></div>
+            <button id="newgame-cancel" class="link">Annullér</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

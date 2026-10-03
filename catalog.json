@@ -1,13 +1,18 @@
 {
-  "updated": "2026-10-03T17:39:23.028Z",
+  "updated": "2026-10-03T18:12:25.199Z",
   "games": [
     {
       "slug": "bondegaarden",
       "channels": {
-        "dev": "0.9.9",
+        "dev": "0.9.10",
         "prod": "0.9.9"
       },
       "versions": [
+        {
+          "version": "0.9.10",
+          "date": "2026-10-03T18:12:25.199Z",
+          "notes": "Tornado ses og efterlader knækkede afgrøder, +/− til hastighed, grafik foran bygninger, lån det afbetalte igen, Bygninger og Anlæg som egne menuer, marken er færdig når maskinerne forlader den"
+        },
         {
           "version": "0.9.9",
           "date": "2026-10-03T17:37:59.801Z",
