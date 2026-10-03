@@ -1,13 +1,18 @@
 {
-  "updated": "2026-10-03T14:34:43.019Z",
+  "updated": "2026-10-03T14:37:23.936Z",
   "games": [
     {
       "slug": "bondegaarden",
       "channels": {
-        "dev": "0.9.0",
+        "dev": "0.9.1",
         "prod": "0.9.0"
       },
       "versions": [
+        {
+          "version": "0.9.1",
+          "date": "2026-10-03T14:37:23.936Z",
+          "notes": "Rettede kø-fejl på marker"
+        },
         {
           "version": "0.9.0",
           "date": "2026-10-03T14:34:42.931Z",
