@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondegaarden</title>
+    <script type="module" crossorigin src="./assets/index-DObleLWS.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-O40u_xUV.css">
+  </head>
+  <body>
+    <header id="topbar">
+      <span class="logo">🚜 Bondegaarden</span>
+      <!-- Speed controls sit before the variable-width stats so they never move. -->
+      <span id="speed" class="group"></span>
+      <span id="cash" class="stat"></span>
+      <span id="date" class="stat"></span>
+      <span id="weather" class="stat"></span>
+      <span class="spacer"></span>
+      <span class="group">
+        <button id="btn-music" title="Musik til/fra (M)">🔊 Musik</button>
+        <button id="btn-save" title="Gem">💾 Gem</button>
+        <button id="btn-load" title="Indlæs">📂 Indlæs</button>
+        <button id="btn-new" title="Nyt spil">✨ Nyt</button>
+      </span>
+    </header>
+    <nav id="menubar"></nav>
+    <main>
+      <div id="stage">
+        <canvas id="game"></canvas>
+        <div id="windows"></div>
+        <div id="toast"></div>
+        <button id="banner" hidden></button>
+        <div id="gameover" hidden>
+          <h2>Konkurs 💸</h2>
+          <p>Gården kunne ikke betale sine regninger.</p>
+          <button id="btn-restart">Start forfra</button>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <section><h3>Felt</h3><div id="tile-info"></div></section>
+        <section class="grow"><h3>Beskeder</h3><ul id="log"></ul></section>
+        <section class="help muted">
+          Træk for at bruge et værktøj på flere felter · Højreklik/WASD panorerer · Scroll zoomer ·
+          Menuerne åbner som vinduer – træk i titlen, træk i hjørnet for at ændre størrelse · Mellemrum = pause · 1–4 = hastighed · M = musik · Esc = undersøg
+        </section>
+      </aside>
+    </main>
+  </body>
+</html>
