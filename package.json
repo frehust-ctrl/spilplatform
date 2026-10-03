@@ -11,7 +11,8 @@
     "rollback": "node tools/rollback.mjs",
     "status": "node tools/status.mjs",
     "preview": "node tools/build-portal.mjs && vite preview --outDir site --port 4300 --strictPort",
-    "deploy": "node tools/deploy.mjs"
+    "deploy": "node tools/deploy.mjs",
+    "notes": "node tools/notes.mjs"
   },
   "devDependencies": {
     "typescript": "^7.0.2",

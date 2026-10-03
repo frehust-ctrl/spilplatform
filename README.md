@@ -26,10 +26,11 @@ spilplatform/
 ## Arbejdsgang
 
 ```bash
-npm run publish-game -- bondegaarden --notes "Hvad er nyt"   # byg + udgiv til Dev
+npm run publish-game -- bondegaarden --bump patch --notes "Hvad er nyt"   # hæv version, byg + udgiv til Dev
 npm run preview                                         # se platformen lokalt på http://localhost:4300
 npm run promote -- bondegaarden                              # Dev-versionen går Live
 npm run rollback -- bondegaarden                             # Live tilbage til forrige version
+npm run notes -- bondegaarden --version 0.9.3 --notes "…"  # ret noten på en version
 npm run status                                          # alle spil, versioner og kanaler
 npm run deploy                                          # læg site/ ud på GitHub Pages
 ```
