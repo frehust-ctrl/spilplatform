@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T14:21:00.880Z",
+  "updated": "2026-10-07T18:32:08.239Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,20 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.5.0",
-        "prod": "0.5.0"
+        "dev": "0.6.1",
+        "prod": "0.6.1"
       },
       "versions": [
+        {
+          "version": "0.6.1",
+          "date": "2026-10-07T18:31:57.804Z",
+          "notes": "Furer og afgrøder følger terrænet og stopper ved vandkanten"
+        },
+        {
+          "version": "0.6.0",
+          "date": "2026-10-07T18:20:19.923Z",
+          "notes": "Ny skærm med menubjælke, ruter med højre museknap, portrætter af faggrupperne, skovhytte, miner, træk varer, bygningsinfo og meget mere"
+        },
         {
           "version": "0.5.0",
           "date": "2026-10-07T14:20:50.509Z",
