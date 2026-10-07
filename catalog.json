@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T19:30:29.966Z",
+  "updated": "2026-10-07T20:00:37.464Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.7.0",
-        "prod": "0.7.0"
+        "dev": "0.8.0",
+        "prod": "0.8.0"
       },
       "versions": [
+        {
+          "version": "0.8.0",
+          "date": "2026-10-07T20:00:28.125Z",
+          "notes": "Krig mod de indfødte; popup når byggeri er færdigt; pionerer kan udrustes fra kortet; måger ved kysten; sten på dyrkede bakker; træk-boks sidder ikke længere fast"
+        },
         {
           "version": "0.7.0",
           "date": "2026-10-07T19:30:17.006Z",
