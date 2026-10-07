@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T11:13:29.310Z",
+  "updated": "2026-10-07T14:21:00.880Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.4.1",
-        "prod": "0.4.1"
+        "dev": "0.5.0",
+        "prod": "0.5.0"
       },
       "versions": [
+        {
+          "version": "0.5.0",
+          "date": "2026-10-07T14:20:50.509Z",
+          "notes": "Mere detaljerede figurer, heste og okser i 3D"
+        },
         {
           "version": "0.4.1",
           "date": "2026-10-07T11:13:16.749Z",
