@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T07:04:44.209Z",
+  "updated": "2026-10-07T07:36:35.680Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.2.0",
-        "prod": "0.2.0"
+        "dev": "0.3.0",
+        "prod": "0.3.0"
       },
       "versions": [
+        {
+          "version": "0.3.0",
+          "date": "2026-10-07T07:36:35.585Z",
+          "notes": "Levende vand og animationer i 3D"
+        },
         {
           "version": "0.2.0",
           "date": "2026-10-07T07:04:25.472Z",

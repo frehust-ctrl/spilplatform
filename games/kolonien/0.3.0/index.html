@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kolonien</title>
+    <script type="module" crossorigin src="./assets/index-DSq-QCQa.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/map-CH7ghuOw.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-Dpn2oVPZ.css">
+  </head>
+  <body>
+    <header id="topbar">
+      <span class="logo">⚓ Kolonien</span>
+      <span id="date" class="stat"></span>
+      <span id="gold" class="stat" title="Din kasse"></span>
+      <span id="tax" class="stat" title="Kongens skat på alt, du sælger"></span>
+      <span id="liberty" class="stat" title="Andel af kolonisterne, der støtter frihedssagen"></span>
+      <span id="crosses" class="stat" title="Kors: når målet nås, kommer en ny immigrant til København"></span>
+      <span class="spacer"></span>
+      <button id="btn-europe" title="Havnen i København (H)">🏰 København</button>
+      <button id="btn-report" title="Kolonier, folk og Kongen (K)">📜 Rapport</button>
+      <button id="btn-end" class="primary" title="Slut turen (Enter)">Næste tur</button>
+      <span class="more-wrap">
+        <button id="btn-more" title="Menu" aria-haspopup="true">⋯</button>
+        <div id="more-menu" hidden>
+          <button id="btn-guide">❓ Guide</button>
+          <button id="btn-save">💾 Gem</button>
+          <button id="btn-load">📂 Indlæs</button>
+          <button id="btn-3d">🧭 3D-kort (beta)</button>
+          <button id="btn-land">🗺️ Vis indfødtes land</button>
+          <button id="btn-new">✨ Nyt spil</button>
+          <button id="btn-home">🏠 Hovedmenu</button>
+        </div>
+      </span>
+    </header>
+    <main id="stage">
+      <canvas id="map"></canvas>
+      <div id="tile-info" hidden></div>
+      <div id="unit-panel" hidden></div>
+      <aside id="side">
+        <div id="log"></div>
+        <canvas id="minimap" width="192" height="144" title="Klik for at flytte kortet"></canvas>
+      </aside>
+      <div id="toast"></div>
+      <div id="screen-root"></div>
+      <div id="dialog-root"></div>
+      <div id="title-root"></div>
+    </main>
+  </body>
+</html>
