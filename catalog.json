@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T11:10:09.077Z",
+  "updated": "2026-10-07T11:13:29.310Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.4.0",
-        "prod": "0.4.0"
+        "dev": "0.4.1",
+        "prod": "0.4.1"
       },
       "versions": [
+        {
+          "version": "0.4.1",
+          "date": "2026-10-07T11:13:16.749Z",
+          "notes": "Viser besked, hvis 3D-kortet ikke kan starte"
+        },
         {
           "version": "0.4.0",
           "date": "2026-10-07T11:09:40.881Z",
