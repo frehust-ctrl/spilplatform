@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T18:32:08.239Z",
+  "updated": "2026-10-07T19:30:29.966Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.6.1",
-        "prod": "0.6.1"
+        "dev": "0.7.0",
+        "prod": "0.7.0"
       },
       "versions": [
+        {
+          "version": "0.7.0",
+          "date": "2026-10-07T19:30:17.006Z",
+          "notes": "Visninger: ressourcer, land og de indfødtes mening; flere ressourcer på kortet, skovhytter, terrasser, regnskab i København og rettede infobokse"
+        },
         {
           "version": "0.6.1",
           "date": "2026-10-07T18:31:57.804Z",
