@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T07:36:35.680Z",
+  "updated": "2026-10-07T11:10:09.077Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.3.0",
-        "prod": "0.3.0"
+        "dev": "0.4.0",
+        "prod": "0.4.0"
       },
       "versions": [
+        {
+          "version": "0.4.0",
+          "date": "2026-10-07T11:09:40.881Z",
+          "notes": "3D-kort som standard, gåanimationer, detaljerede modeller og nye skibe"
+        },
         {
           "version": "0.3.0",
           "date": "2026-10-07T07:36:35.585Z",
