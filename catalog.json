@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T06:23:49.598Z",
+  "updated": "2026-10-08T09:14:09.125Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.10.0",
-        "prod": "0.10.0"
+        "dev": "0.11.0",
+        "prod": "0.11.0"
       },
       "versions": [
+        {
+          "version": "0.11.0",
+          "date": "2026-10-08T09:13:56.288Z",
+          "notes": "Byggemenuen viser hvad der kommer senere og hvorfor; Sejl til koloni (T); den gule pil kun over den valgte enhed; de indfødte viser hvad de mangler; deres jord er stribet"
+        },
         {
           "version": "0.10.0",
           "date": "2026-10-08T06:23:41.598Z",
