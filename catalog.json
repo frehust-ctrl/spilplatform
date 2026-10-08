@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T15:50:58.631Z",
+  "updated": "2026-10-08T17:12:12.785Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.12.0",
-        "prod": "0.12.0"
+        "dev": "0.13.0",
+        "prod": "0.13.0"
       },
       "versions": [
+        {
+          "version": "0.13.0",
+          "date": "2026-10-08T17:12:01.162Z",
+          "notes": "Realistisk grafik: bjerge med kamme og kløfter, teksturer, himmel med skyer, lavt kamera tæt på, træer af blade, bølgende græs, kampanimationer"
+        },
         {
           "version": "0.12.0",
           "date": "2026-10-08T15:50:45.722Z",
