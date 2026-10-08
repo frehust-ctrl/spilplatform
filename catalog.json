@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T09:14:09.125Z",
+  "updated": "2026-10-08T15:50:58.631Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.11.0",
-        "prod": "0.11.0"
+        "dev": "0.12.0",
+        "prod": "0.12.0"
       },
       "versions": [
+        {
+          "version": "0.12.0",
+          "date": "2026-10-08T15:50:45.722Z",
+          "notes": "Andre kolonimagter med krig og fred; handelsruter for vogne og skibe; vælg landingssted; åbent hav overalt med mange veje til Europa; skibe kommer tilbage hvor de sejlede fra; Glem fag (G); fisk der svømmer; mindre og mere realistiske figurer; pionerer der arbejder"
+        },
         {
           "version": "0.11.0",
           "date": "2026-10-08T09:13:56.288Z",
