@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T17:12:12.785Z",
+  "updated": "2026-10-08T17:23:17.357Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.13.0",
-        "prod": "0.13.0"
+        "dev": "0.14.0",
+        "prod": "0.14.0"
       },
       "versions": [
+        {
+          "version": "0.14.0",
+          "date": "2026-10-08T17:22:41.103Z",
+          "notes": "Fotorealistiske terrænteksturer (græs, jord, klippe, sand) og blødere, mere realistiske figurer med stofglans"
+        },
         {
           "version": "0.13.0",
           "date": "2026-10-08T17:12:01.162Z",
