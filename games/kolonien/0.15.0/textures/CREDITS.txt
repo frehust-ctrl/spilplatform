@@ -1,0 +1,8 @@
+Terrain textures from Poly Haven (https://polyhaven.com), CC0 – free to use for any purpose.
+
+  rocky_terrain_02   – grassland with scattered stones (the grass)
+  aerial_rocks_02    – mossy rock faces (cliffs and steep slopes)
+  aerial_beach_01    – beach sand
+  dirt_aerial_02     – dry earth (prairie, desert, ploughed land)
+
+1K JPG, colour (diff) and OpenGL normal maps (nor_gl), re-saved at a lower JPEG quality.

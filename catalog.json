@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T17:23:17.357Z",
+  "updated": "2026-10-10T14:56:25.930Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,20 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.14.0",
-        "prod": "0.14.0"
+        "dev": "0.15.0",
+        "prod": "0.15.0"
       },
       "versions": [
+        {
+          "version": "0.15.0",
+          "date": "2026-10-10T14:56:17.394Z",
+          "notes": "Nye skibe: plankeskrog med barkholter, balustrader, mærs, vant og vævlinger, blindesejl; figurer med mere karakter; ruter: læs kun alt over 50–200; pionerer anlægger vej (A); Toldhuset kan indstilles; Tøjhus; egne tal i Rapporten; Delete som Esc; klik på byens navneskilt; veje og marker vises igen; Næste enhed-knap; fisk på havet; tidstro ikoner"
+        },
+        {
+          "version": "0.14.1",
+          "date": "2026-10-08T17:38:23.306Z",
+          "notes": "Mere realistiske figurer: bedre proportioner, skødefrakker, led, hænder, mindre øjne og runde former; heste med muskler"
+        },
         {
           "version": "0.14.0",
           "date": "2026-10-08T17:22:41.103Z",
