@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kolonien</title>
+    <script type="module" crossorigin src="./assets/index-Dc9F_7Ks.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/flags-Cg7_KEJF.js">
+    <link rel="modulepreload" crossorigin href="./assets/map-DVFKXDtZ.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-Cy4LkVy0.css">
+  </head>
+  <body>
+    <header id="topbar">
+      <span class="logo" id="logo">Kolonien</span>
+      <span id="date" class="stat"></span>
+      <span id="gold" class="stat" title="Din kasse"></span>
+      <span id="tax" class="stat" title="Kongens skat på alt, du sælger"></span>
+      <span id="liberty" class="stat" title="Andel af kolonisterne, der støtter frihedssagen"></span>
+      <span id="crosses" class="stat" title="Kors: når målet nås, kommer en ny immigrant til København"></span>
+      <span class="spacer"></span>
+      <span id="no3d" class="stat warn" hidden>⚠️ 2D-kort</span>
+      <button id="btn-europe" title="Havnen i København (H)">🏰 København</button>
+      <button id="btn-units" title="Alle dine enheder – også dem i dvale (O)">👥 Enheder</button>
+      <button id="btn-routes" title="Handelsruter for vogntog og skibe">📒 Ruter</button>
+      <button id="btn-report" title="Kolonier, folk og Kongen (K)">📜 Rapport</button>
+      <button id="btn-next" title="Gå til næste enhed, der mangler ordrer (N)" hidden>Næste enhed</button>
+      <button id="btn-end" class="primary" title="Slut turen (Enter)">Næste tur</button>
+      <button id="btn-sound" title="Lyd til/fra">🔊</button>
+      <span class="more-wrap">
+        <button id="btn-more" title="Menu" aria-haspopup="true">⋯</button>
+        <div id="more-menu" hidden>
+          <button id="btn-save">💾 Gem spil</button>
+          <button id="btn-load">📂 Hent spil</button>
+          <button id="btn-scores">🏆 Highscore</button>
+          <button id="btn-guide">❓ Guide og FAQ</button>
+          <button id="btn-soundcfg">🎵 Lyd og musik</button>
+          <button id="btn-gfx">🎨 Grafik</button>
+          <hr>
+          <button id="btn-new">✨ Nyt spil</button>
+          <button id="btn-home">🏠 Til hovedmenuen</button>
+          <button id="btn-exit">🚪 Afslut</button>
+        </div>
+      </span>
+    </header>
+    <main id="stage">
+      <div id="mapview">
+        <canvas id="map"></canvas>
+        <div id="tile-info" hidden></div>
+        <div id="lenses" title="Visning (V)">
+          <button data-lens="normal" class="on" title="Normal visning">🗺️</button>
+          <button data-lens="resources" title="Ressourcer: hvad felterne kan give">🌾</button>
+          <button data-lens="land" title="Land og kultur: hvem ejer landet">🏳️</button>
+          <button data-lens="mood" title="De indfødtes mening om dig">🙂</button>
+        </div>
+        <div id="lens-legend" hidden></div>
+        <div id="reach-legend" hidden>Rækkevidde denne tur · <b class="sure">grøn</b>: kan nås · <b class="maybe">gul</b>: kun med held 🎲 · 👣 terrænets træk · 🛡 forsvar</div>
+      </div>
+      <footer id="dock">
+        <div id="dock-map"><canvas id="minimap" width="192" height="144" title="Klik for at flytte kortet"></canvas></div>
+        <div id="unit-panel"></div>
+        <aside id="side">
+          <div id="waiting"></div>
+          <div id="log"></div>
+        </aside>
+      </footer>
+      <div id="toast"></div>
+      <div id="screen-root"></div>
+      <div id="dialog-root"></div>
+      <div id="title-root"></div>
+    </main>
+  </body>
+</html>

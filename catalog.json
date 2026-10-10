@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T14:56:25.930Z",
+  "updated": "2026-10-10T17:11:28.235Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.15.0",
-        "prod": "0.15.0"
+        "dev": "0.15.1",
+        "prod": "0.15.1"
       },
       "versions": [
+        {
+          "version": "0.15.1",
+          "date": "2026-10-10T17:11:00.188Z",
+          "notes": "Rettet kæmpe ikoner i byggemenuen; mere realistiske bygninger: tegltage, murede skorstene, sprossevinduer, plankedøre, stensokkel, bindingsværk hele vejen rundt, hjørnekvadre og en finere palisade"
+        },
         {
           "version": "0.15.0",
           "date": "2026-10-10T14:56:17.394Z",
