@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T17:11:28.235Z",
+  "updated": "2026-10-11T17:21:59.046Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,20 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.15.1",
-        "prod": "0.15.1"
+        "dev": "0.16.1",
+        "prod": "0.16.1"
       },
       "versions": [
+        {
+          "version": "0.16.1",
+          "date": "2026-10-11T17:21:45.313Z",
+          "notes": "Koloniskærmen passer til skærmen – også i fuld skærm på brede skærme, så lageret ikke skæres af"
+        },
+        {
+          "version": "0.16.0",
+          "date": "2026-10-10T19:01:16.851Z",
+          "notes": "Skibe i København viser hvor de kom fra og hvor de sejler hen – og du kan vælge kurs mod en anden koloni; hotkey N vises på Næste enhed-knappen"
+        },
         {
           "version": "0.15.1",
           "date": "2026-10-10T17:11:00.188Z",
