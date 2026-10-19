@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T17:21:59.046Z",
+  "updated": "2026-10-19T05:15:22.762Z",
   "games": [
     {
       "slug": "bondegaarden",
@@ -87,10 +87,15 @@
     {
       "slug": "kolonien",
       "channels": {
-        "dev": "0.16.1",
-        "prod": "0.16.1"
+        "dev": "0.17.0",
+        "prod": "0.17.0"
       },
       "versions": [
+        {
+          "version": "0.17.0",
+          "date": "2026-10-19T05:15:04.468Z",
+          "notes": "Popup mellem turene med det der vedrører dig – angreb, tab, sult, fulde lagre og gode nyheder – med Vis-knap; Forvalter der driver en by selv; lyde for sejr, nederlag og pyrrhussejr; forlad eller brænd en by; popup når en elev er uddannet; Arsenal"
+        },
         {
           "version": "0.16.1",
           "date": "2026-10-11T17:21:45.313Z",
